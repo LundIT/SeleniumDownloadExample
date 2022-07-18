@@ -1,0 +1,18 @@
+[
+  {
+    "class": "CompanyList",
+    "action": "delete",
+    "filter_parameters": {}
+  },
+  {
+    "class": "CompanyList",
+    "action": "create",
+    "tag": "download",
+    "parameters": {
+      "period_date": "datetime:2020-12-31",
+      "company_list": "submodels/SeleniumDownloadExample/Tests/short_companies.xlsx",
+      "get_structured": true,
+      "calculate": true
+    }
+  }
+]
